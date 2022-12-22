@@ -28,15 +28,14 @@
         @click="$router.push({ name: 'adminInbody' })"
         class="admin-view-button shadow"
       >
-        <font-awesome-icon icon="fa-solid fa-caret-right" /> 기간으로 인바디
-        조회
+        <font-awesome-icon icon="fa-solid fa-caret-right" /> 인바디 관리 (기간)
       </div>
       <div
         @click="$router.push({ name: 'adminInbodyDate' })"
         class="admin-view-button shadow"
       >
-        <font-awesome-icon icon="fa-solid fa-caret-right" /> 특정 날짜로 인바디
-        조회
+        <font-awesome-icon icon="fa-solid fa-caret-right" /> 인바디 관리
+        (특정일)
       </div>
     </div>
   </div>

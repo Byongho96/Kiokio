@@ -20,6 +20,9 @@ import InbodyUpdateView from '@/views/InbodyUpdateView'
 import PasswordUpdateView from '@/views/PasswordUpdateView'
 import GymView from '@/views/GymView'
 
+//404
+import NotFound404View from '@/views/NotFound404View'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -161,6 +164,11 @@ const routes = [
     path: '/password/update',
     name: 'passwordUpdate',
     component: PasswordUpdateView,
+  },
+  {
+    path: '*',
+    name: 'notFound404',
+    component: NotFound404View,
   },
 
   // {
